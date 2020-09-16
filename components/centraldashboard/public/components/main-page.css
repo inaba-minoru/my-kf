@@ -157,6 +157,31 @@ app-toolbar>header {
     margin-top: 4px;
 }
 
+#realai-logo {
+    height: 32px;
+    width: 121px;
+}
+
+#realai-logo>div{
+    height: 100%;
+    width: 100%;
+    background-image: url(/assets/realai-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Narrow-Slider>.Logo>#realai-logo {
+    height: 24px !important;
+}
+
+#Narrow-Slider>.Logo>#realai-logo>div {
+    background-image: url(/assets/realai-blue.png) !important;
+
+    margin-top: -112px;
+    filter: drop-shadow(0 100px 0 rgb(10, 59, 113));
+}
+
 #Narrow-Slider>.Logo>svg * {
     fill: currentColor;
 }
