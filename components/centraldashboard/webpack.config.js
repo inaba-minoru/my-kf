@@ -214,6 +214,10 @@ module.exports = {
                 target: 'http://localhost:8083/api/v1/namespaces/kubeflow/services/ml-pipeline-ui:80/proxy',
                 pathRewrite: {'^/pipeline': ''},
             },
+            '/filebrowser': {
+                target: 'http://localhost:8083/api/v1/namespaces/kubeflow/services/filebrowser:80/proxy',
+                pathRewrite: {'^/filebrowser': ''},
+            },
         },
         historyApiFallback: {
             disableDotRule: true,

@@ -18,6 +18,10 @@ data:
         {
           "link": "/metadata/",
           "text": "Artifact Store"
+        },
+        {
+          "link": "/filebrowser/",
+          "text": "Shared Space"
         }
       ],
       "externalLinks": [],
